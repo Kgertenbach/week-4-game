@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karen Gertenbach: Crystal Collector</title>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Coming+Soon" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" media="mediatype and|not|only (media feature)" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Sans" rel="stylesheet">
+</head>
+
+<!-- My Game -->
+
+<body>
+	<div class="container">
+        <header>
+        <h1>Crystal Collector</h1>
+        </header>
+    </div>
+
+    <!-- Game instructions -->
+	<div class='instructions'>
+			<p>You will be given a random number at the start of the game.</p>
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total socre to random number, you lose the game if your total score goes above the random number</p>
+            <p>The value of each crytal is hidden from you until you click on it</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+
+    <!-- Play area -->
+	<div class='numberToMatch'>
+        <h2>Number To Get:  </h2>
+        <h4 id= 'randomNumber'></h4>
+    </div>
+
+    <div class="userTotal">
+         <h2>Your total score is:</h2>
+        <h4 id="finalTotal"></h4>
+    </div>
+
+    <div class="gems">
+		<img src="assets/images/red.png" class=gemImage id="one" alt="Red Gem">
+		<img src="assets/images/blue.png" class=gemImage id="two" alt="Blue Gem">
+		<img src="assets/images/yellow.png" class=gemImage id= "three" alt="Yellow Gem">
+		<img src="assets/images/green.png" class=gemImage id= "four" alt="Green Gem">
+	</div>
+
+
+    <!-- win and losses area -->
+	<div class="winsAndLosses">
+		<h2>Total Wins:
+			<h5 id= "numberWins"></h5>
+			</br>
+			Total Losses: 
+			<h5 id= "numberLosses"></h5>
+        </h2>
+	</div>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

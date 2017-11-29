@@ -1,0 +1,205 @@
+
+body  {
+    font-size: 20px;
+    background: url("../images/old_map.png");
+  }
+
+header {
+    border: 3px dashed rgb(167, 74, 113);
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    text-align: center;
+    margin: 5% auto;
+    height: 80px;
+    width: 600px;
+    background: url("../images/tile.png");
+  
+  }
+  .instructions {
+    border: 2px solid rgb(167, 74, 113);
+    height:auto;
+    padding: 7px;
+    width: 900px;
+    margin-left: 200px;
+    background: rgb(230, 205, 216);
+    font-family: 'Coming Soon', cursive;
+    font-size: 70ox;
+    text-align: center;  
+  }
+  
+  .numberToMatch {
+    border: 2px solid rgb(167, 74, 113);
+    padding: 7px;
+    text-align: center;
+    width: 500px;
+    height:80px;
+    margin-top:25px;
+    margin-left: 410px;
+    background: url("../images/tile.png");
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .userTotal {
+    border: 2px solid rgb(167, 74, 113);
+    color: rgb(129, 9, 63);
+    padding: 7px;
+    text-align: center;
+    width: 500px;
+    height:80px;
+    font-size: 30px;
+    margin-top:25px;
+    margin-left: 410px;
+    background: url("../images/tile.png");
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .winsAndLosses {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  #randomNumber {
+    font-size:65px;
+    color: rgb(211, 13, 13);
+  }
+  #finalTotal {
+    font-size:35px;
+    color: rgb(19, 10, 139);
+  }
+  .gems {
+    margin-left: 470px;
+    margin-top: 25px;
+
+  }
+
+  .gemImage {
+  width:100px;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+  
+
+  @media screen and (max-width: 980px) {
+
+    header {
+      margin-left:110px;
+      height: 80px;
+      width: 600px;
+    
+    }
+    .instructions {
+
+      padding: 7px;
+      width: 800px;
+      margin-left: 15px;
+      font-size: 70ox; 
+    }
+    
+    .numberToMatch {
+      width: 500px;
+      height:80px;
+      margin-top:25px;
+      margin-left: 170px;
+    }
+    .userTotal {
+      width: 500px;
+      height:80px;
+      margin-top:25px;
+      margin-left: 170px;
+    }
+
+
+    .gems {
+      margin-left: 200px;
+      margin-top: 25px;
+  
+    }
+}
+  @media screen and (max-width: 768px)  {
+    header {
+      margin-left:40px;
+      font-size:50px;
+      height: 50px;
+      width: 500px;
+    
+    }
+    .instructions {
+      font-size: 15px;
+      padding: 7px;
+      width: 600px;
+      margin-left: 10px;
+
+    }
+    
+    .numberToMatch {
+      font-size: 30px;
+      width: 500px;
+      height:80px;
+      margin-top:25px;
+      margin-left: 50px;
+    }
+    .userTotal {
+      font-size:25px;
+      width: 500px;
+      height:80px;
+      margin-top:25px;
+      margin-left: 50px;
+    }
+
+
+    .gems {
+      margin-left: 120px;
+      margin-top: 25px;
+  
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      clear: both;
+    }
+ }
+  @media screen and (max-width: 640px) {
+
+    header {
+      margin-left:2px;
+      font-size:45px;
+      height: 50px;
+      width: 500px;
+    
+    }
+    .instructions {
+      font-size: 10px;
+      padding: 3px;
+      width: 500px;
+      margin-left: 10px;
+
+    }
+    
+    .numberToMatch {
+      font-size: 17px;
+      width: 500px;
+      height:80px;
+      margin-top:25px;
+      margin-left: 10px;
+    }
+    .userTotal {
+      font-size:15px;
+      width: 500px;
+      height:80px;
+      margin-top:25px;
+      margin-left: 10px;
+    }
+
+
+    .gems {
+      margin-left: 50px;
+      margin-top: 25px;
+  
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      clear: both;
+    }
+    
+}
